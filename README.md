@@ -14,15 +14,33 @@ This repository includes the main tasks for Project 3:
 * `requirements.txt` is to specify the dependencies (libraries and packages) required to run the project.
 
 ## Project description
-* ETL pipeline
-* Delta Lake
-* Spark SQL
-* Visualization
-* Automated trigger
+* Databricks notebook with ETL pipeline
+* Delta Lake for data storage
+* Spark SQL for data transformation
+* Visualization of the transformed data
+* Automated trigger to initiate the pipeline
 
 ## Project environment
 
 * Use Azure Databricks for scripting
+* Link GitHub to Azure Databricks
 * Container built in `devcontainers` and virtual environment activated via `requirements.txt`
 
+## Major steps
+* Extract data from URL
+* Fetch data
+* Set up `Global init script` in Databricks
+* Transform and load data
+* Query transformation and data visualization
+* File path checking for `make test`
+* Clone repo into Databricks workspace
+* Create new cluster
+* Create new job to build a new ETL pipeline with automated trigger
+* Add `JOB_ID`, `SERVER_HOSTNAME` and `TOKEN` in GitHub settings
+
+## Check format & errors
+
 ## Video link
+
+
+## References

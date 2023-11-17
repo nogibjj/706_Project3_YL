@@ -14,8 +14,9 @@ fastapi
 uvicorn
 
 ## data science
-numpy
-pandas
+pandas 
+python-dotenv
+databricks-sql-connector
 matplotlib
-seaborn
-polars
+
+pyspark
