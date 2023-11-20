@@ -8,7 +8,7 @@ server_h = os.getenv("SERVER_HOSTNAME")
 access_token = os.getenv("TOKEN")
 FILESTORE_PATH = "dbfs:/FileStore/individual_project3"
 # headers = {"Authorization": "Bearer %s" % access_token}
-url = "https://"+server_h+"/api/2.0"
+url = f"https://{server_h}/api/2.0"
 
 def check_filestore_path(path, headers): 
     try:
