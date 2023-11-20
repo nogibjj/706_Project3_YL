@@ -29,12 +29,12 @@ This repository includes the main tasks for Project 3:
 ## Major steps
 * Extract data from URL
 * Fetch data
-* Set up `Global init script` in Databricks
 * Transform and load data
 * Query transformation and data visualization
 * File path checking for `make test`
 * Clone repo into Databricks workspace
 * Create new cluster
+![Alt text](figures/songs_workflow.png)
 * Create new job to build a new ETL pipeline with automated trigger
 * Add `JOB_ID`, `SERVER_HOSTNAME` and `TOKEN` in GitHub settings
 
