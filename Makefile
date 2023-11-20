@@ -12,4 +12,4 @@ test:
  	# python -m pytest -vv --cov=mylib test_*.py
 
 job:
-    python trigger.py
+       python trigger.py

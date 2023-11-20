@@ -9,8 +9,6 @@ This repository includes the main tasks for Project 3:
 * `Workflows` includes GitHub Actions, which contain configuration files for setting up automated build, test, and deployment pipelines for your project.
 * `.gitignore` is used to specify which files or directories should be excluded from version control when using Git.
 * `README.md` is the instruction file for the readers.
-* `main.py` is a Python file that contains the main function.
-* `test_main.py`  is a test file for `main.py` that can successfully run in IDEs.
 * `requirements.txt` is to specify the dependencies (libraries and packages) required to run the project.
 
 ## Project description
@@ -27,14 +25,20 @@ This repository includes the main tasks for Project 3:
 * Container built in `devcontainers` and virtual environment activated via `requirements.txt`
 
 ## Major steps
-* Extract data from URL
+I use the song database in 
+* Extract data from URL: `extract.py` in `mylib` and `extract.ipynb` in Databricks
 * Fetch data
-* Transform and load data
+* Transform and load data: `transform_load.ipynb` in Databricks
 * Query transformation and data visualization
 * File path checking for `make test`
 * Clone repo into Databricks workspace
-* Create new cluster
+* Create new cluster and run
 ![Alt text](figures/songs_workflow.png)
+* Visualize one of the query results: number of songs during each year
+![Alt text](figures/vis.png)
+* Query results
+![Alt text](figures/top_artists.png)
+![Alt text](figures/topDJs.png)
 * Create new job to build a new ETL pipeline with automated trigger
 * Add `JOB_ID`, `SERVER_HOSTNAME` and `TOKEN` in GitHub settings
 
