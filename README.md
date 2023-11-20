@@ -37,7 +37,9 @@ I use the million song database in Databricks DBFS.
 ![Alt text](figures/vis.png)
 * Query results
 ![Alt text](figures/top_artists.png)
+Top 10 artists produce the most songs annually
 ![Alt text](figures/topDJs.png)
+Top DJs with the highest tempo
 * Create new job to build a new ETL pipeline with automated trigger
 * Add `JOB_ID`, `SERVER_HOSTNAME` and `TOKEN` in GitHub settings
 
