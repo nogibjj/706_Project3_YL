@@ -25,7 +25,7 @@ This repository includes the main tasks for Project 3:
 * Container built in `devcontainers` and virtual environment activated via `requirements.txt`
 
 ## Major steps
-I use the song database in 
+I use the million song database in Databricks DBFS.
 * Extract data from URL: `extract.py` in `mylib` and `extract.ipynb` in Databricks
 * Fetch data
 * Transform and load data: `transform_load.ipynb` in Databricks
