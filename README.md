@@ -38,8 +38,6 @@ This repository includes the main tasks for Project 3:
 * Create new job to build a new ETL pipeline with automated trigger
 * Add `JOB_ID`, `SERVER_HOSTNAME` and `TOKEN` in GitHub settings
 
-## Check format & errors
-
 ## Video link
 
 

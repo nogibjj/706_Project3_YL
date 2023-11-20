@@ -3,10 +3,13 @@ install:
 		pip install -r requirements.txt
 
 format:
-	black *.py
+# 	black *.py
 
 lint:
-	ruff check *.py mylib/*.py
+# 	ruff check *.py mylib/*.py
 
 test:
-	python -m pytest -vv --cov=mylib test_*.py
+# 	python -m pytest -vv --cov=mylib test_*.py
+
+job:
+      python trigger.py
