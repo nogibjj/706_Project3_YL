@@ -30,7 +30,6 @@ I use the million song database in Databricks DBFS.
 * Fetch data
 * Transform and load data: `transform_load.ipynb` in Databricks
 * Query transformation and data visualization
-* File path checking for `make test`
 * Clone repo into Databricks workspace
 * Create new cluster and run
 ![Alt text](figures/songs_workflow.png)
@@ -46,3 +45,5 @@ I use the million song database in Databricks DBFS.
 
 
 ## References
+
+https://docs.databricks.com/en/dbfs/filestore.html
