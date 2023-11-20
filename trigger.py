@@ -7,9 +7,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Replace with your environment variables or provide the actual values
-server_hostname = os.getenv("SERVER_HOSTNAME")
-job_id = os.getenv("JOB_ID")
-access_token = os.getenv("TOKEN")
+server_hostname = os.getenv("adb-7032072092481436.16.azuredatabricks.net")
+job_id = os.getenv("736264284410811")
+access_token = os.getenv("dapi078ded0930678a2d76aacdf05d5ff6fd-3")
 url = f'https://{server_hostname}/api/2.0/jobs/run-now'
 
 headers = {
